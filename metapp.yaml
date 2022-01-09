@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/igalse/argocd.git
-    targetRevision: main
+    targetRevision: master
     path: test1/app-of-apps
   destination:
     server: https://kubernetes.default.svc
